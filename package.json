@@ -29,6 +29,7 @@
     "@editorjs/table": "2.0.1",
     "@editorjs/warning": "1.2.0",
     "classnames": "^2.3.1",
+    "editorjs-paragraph-with-alignment": "^3.0.0",
     "get-file-object-from-local-path": "1.0.2",
     "open-graph-scraper": "4.9.2",
     "react-editor-js": "1.10.0"
