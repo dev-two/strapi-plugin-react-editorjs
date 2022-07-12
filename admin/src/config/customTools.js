@@ -14,6 +14,8 @@ import CheckList from "@editorjs/checklist";
 import Delimiter from "@editorjs/delimiter";
 import InlineCode from "@editorjs/inline-code";
 import Paragraph from "editorjs-paragraph-with-alignment";
+import FontSize from "editorjs-inline-font-size-tool";
+import ColorPlugin from "editorjs-text-color-plugin";
 
 const customTools = {
   embed: Embed,
@@ -69,6 +71,34 @@ const customTools = {
   paragraph: {
     class: Paragraph,
     inlineToolbar: true,
+  },
+  fontSize: FontSize,
+  Color: {
+    class: ColorPlugin, // if load from CDN, please try: window.ColorPlugin
+    config: {
+      colorCollections: [
+        "#EC7878",
+        "#9C27B0",
+        "#673AB7",
+        "#3F51B5",
+        "#0070FF",
+        "#03A9F4",
+        "#00BCD4",
+        "#4CAF50",
+        "#8BC34A",
+        "#CDDC39",
+        "#FFF",
+      ],
+      defaultColor: "#FF1300",
+      type: "text",
+    },
+  },
+  Marker: {
+    class: ColorPlugin, // if load from CDN, please try: window.ColorPlugin
+    config: {
+      defaultColor: "#FFBF00",
+      type: "marker",
+    },
   },
 };
 
