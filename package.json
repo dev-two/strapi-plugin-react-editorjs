@@ -31,6 +31,8 @@
     "classnames": "^2.3.1",
     "editorjs-paragraph-with-alignment": "^3.0.0",
     "get-file-object-from-local-path": "1.0.2",
+    "editorjs-text-color-plugin": "^1.13.1",
+    "editorjs-inline-font-size-tool": "^1.0.1",
     "open-graph-scraper": "4.9.2",
     "react-editor-js": "1.10.0"
   },
@@ -38,8 +40,6 @@
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
     "cz-conventional-changelog": "^3.3.0",
-    "editorjs-inline-font-size-tool": "^1.0.1",
-    "editorjs-text-color-plugin": "^1.13.1",
     "semantic-release": "^19.0.2"
   },
   "config": {
