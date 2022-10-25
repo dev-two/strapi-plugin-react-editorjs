@@ -16,9 +16,11 @@ import InlineCode from "@editorjs/inline-code";
 import Paragraph from "editorjs-paragraph-with-alignment";
 import FontSize from "editorjs-inline-font-size-tool";
 import ColorPlugin from "editorjs-text-color-plugin";
+import PostAdSeparator from "../components/tools/PostAdSeparator";
 
 const customTools = {
   embed: Embed,
+  PostAdSeparator,
   table: {
     class: Table,
     inlineToolbar: true,
