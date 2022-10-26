@@ -20,7 +20,7 @@ import PostAdSeparator from "../components/tools/PostAdSeparator";
 
 const customTools = {
   embed: Embed,
-  PostAdSeparator,
+  adSeparator: PostAdSeparator,
   table: {
     class: Table,
     inlineToolbar: true,

@@ -16,9 +16,9 @@ class PostAdSeparator {
     return el;
   }
 
-  save(blockContent) {
+  save() {
     return {
-      type: "design_now_separator",
+      display_ad: true,
     };
   }
 }
