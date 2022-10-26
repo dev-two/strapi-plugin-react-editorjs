@@ -1,4 +1,12 @@
 class PostAdSeparator {
+  static get isReadOnlySupported() {
+    return true;
+  }
+
+  static get contentless() {
+    return true;
+  }
+
   static get toolbox() {
     return {
       title: "Design Now post separator",
@@ -17,9 +25,7 @@ class PostAdSeparator {
   }
 
   save() {
-    return {
-      display_ad: true,
-    };
+    return {};
   }
 }
 
